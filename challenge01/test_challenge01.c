@@ -16,6 +16,7 @@ void test_suma_negativos() {
     assert(suma(-4, -6) == -10);
 }
 
+
 int main() {
     test_suma_positivos();
     test_suma_positivo_negativo();
