@@ -1,7 +1,6 @@
 #include <assert.h>
 #include <stdio.h>
 
-// Declaración externa de la función a probar
 int suma(int a, int b);
 
 void test_suma_positivos() {
@@ -15,7 +14,6 @@ void test_suma_positivo_negativo() {
 void test_suma_negativos() {
     assert(suma(-4, -6) == -10);
 }
-
 
 int main() {
     test_suma_positivos();
