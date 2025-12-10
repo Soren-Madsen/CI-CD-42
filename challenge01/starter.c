@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-// Declaración de la función a implementar
-int suma(int a, int b);
+ 
+#include "suma.h"
 
 int main() {
     // Ejemplo de uso rápido
